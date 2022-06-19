@@ -21,7 +21,7 @@
 --White: hsl(0, 0%, 100%);
 }
 img{
-    max-width: 100%; 
+    max-width: 1; 
     
 
 }
@@ -40,20 +40,25 @@ body {
     padding: 1.25rem;
 }
 .container{
-    padding: 1.25rem;
+    max-width: 22rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+
     background-color: var(--card-BG);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     margin-bottom: 1rem;
 }
 .container .profile img{
-    border-radius: 5px;
+    border-radius: 0.5rem;
     position: relative;
+    max-width: 19rem
 }
 .container .profile div{
     position: absolute;
-    width: 410px;
-    height: 410px;
-    top: 2.5rem;
+    width: 19rem;
+    height: 19rem;
+    top: 2.9rem;
     z-index: 999;
     background-color: hsl(178, 100%, 50%,  60%);
     opacity: 0;
@@ -74,11 +79,14 @@ body {
 .container h1{
     color: var(--White);
     margin: 1rem 0.5rem 0.5rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 
 }
 .container h1:hover{
     color: var(--Cyan);
     cursor: pointer;
+
 }
 .container ul{
     display: flex;

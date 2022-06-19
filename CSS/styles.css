@@ -38,6 +38,7 @@ body {
     background-color: var(--main-BG);
     color: hsl(0, 0%, 100%, 60%);
     padding: 1.25rem;
+    margin-top: 100px;
 }
 .container{
     max-width: 22rem;

@@ -20,11 +20,6 @@
 --line: hsl(215, 32%, 27%);
 --White: hsl(0, 0%, 100%);
 }
-img{
-    max-width: 1; 
-    
-
-}
 
 ul{
     list-style-type: none;
@@ -38,7 +33,7 @@ body {
     background-color: var(--main-BG);
     color: hsl(0, 0%, 100%, 60%);
     padding: 1.25rem;
-    margin-top: 100px;
+    padding-top: 2REM;
 }
 .container{
     max-width: 22rem;
@@ -53,13 +48,13 @@ body {
 .container .profile img{
     border-radius: 0.5rem;
     position: relative;
-    max-width: 19rem
-}
+    max-width: 19rem;
+} 
 .container .profile div{
     position: absolute;
     width: 19rem;
     height: 19rem;
-    top: 2.9rem;
+    top: 3.5625rem;
     z-index: 999;
     background-color: hsl(178, 100%, 50%,  60%);
     opacity: 0;
